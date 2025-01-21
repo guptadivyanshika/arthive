@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+#main{
+    margin-top: 3px;
+    margin-bottom:7px ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.filters {
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    background-color:#255869;
+    color: white;
+    font-size: 1.2rem;
+}
+.filters h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.filters h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.filter-category{
+    margin-bottom: 30px;
+}
+.filter-size{
+    margin-bottom: 30px;
+}
+.filter-price{
+    margin-bottom: 30px;
+}
+
+.filters input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    height: auto;
+    padding: 20px;
+    width: 1300px;
+    margin-left: 90px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 30%;
+   
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+}
+.image-container img:hover{
+    box-shadow: 30px 35px 45px #3c404464;
+
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+nav {
+    padding: 10px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateX(-5px);
+}

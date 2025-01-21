@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <a href="/project.html" class="back-link" aria-label="Go back to project page">
+            <button type="button" class="back-button">←</button>
+        </a>
+    </nav>
+    
+    <div class="login-container">
+        <div class="login-box">
+            <h1 id="login">Login</h1>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="username" class="visually-hidden">Username or Email</label>
+                    <input type="email" id="username" name="username" 
+                           placeholder="Username or Email" class="input-field" 
+                           required autocomplete="username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password" class="visually-hidden">Password</label>
+                    <input type="password" id="password" name="password" 
+                           placeholder="Password" class="input-field" 
+                           required autocomplete="current-password">
+                </div>
+                
+                <button type="submit" class="login-button">Login</button>
+            </form>
+            
+            <p class="forgot-password">
+                <a href="/forgot-password">Forgot Password?</a>
+            </p>
+            
+            <p class="signup">
+                Not a member? <a href="/signup">Sign up</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
